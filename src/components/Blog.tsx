@@ -20,7 +20,7 @@ const Blog: FC<BlogPost> = ({ title, img, description, author }) => {
         height={100}
       />
       <div className="my-3 mx-7">
-        <h3 className="font-bold text-xl text-teal-500">{title}</h3>
+        <h3 className="font-bold text-xl text-teal-500 mt-3">{title}</h3>
         <div className="text-base mt-5">
           {documentToReactComponents(description)}
         </div>
