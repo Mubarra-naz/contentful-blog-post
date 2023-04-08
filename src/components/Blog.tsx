@@ -24,7 +24,9 @@ const Blog: FC<BlogPost> = ({ title, img, description, author }) => {
         <div className="text-base mt-5">
           {documentToReactComponents(description)}
         </div>
-        <p className="font-medium text-lg mt-5 text-teal-700">{author}</p>
+        <p className="font-medium text-lg mt-5 text-teal-700">
+          Author: {author}
+        </p>
       </div>
     </div>
   );
